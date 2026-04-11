@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <root xmlns:xacro="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface">
   
-  <xacro:include filename="$(find youbot_description)/urdf/sensors/asus_xtion_camera.gazebo.xacro" />
+  <xacro:include filename="./asus_xtion_camera.gazebo.xacro" />
   
   <xacro:property name="eye_x_offset" value="0.03" />
   <xacro:property name="eye_y_offset" value="0.035" />

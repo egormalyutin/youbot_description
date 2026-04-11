@@ -7,19 +7,19 @@
   
   <!-- The following xacro:included files set up definitions of parts of the robot body -->
   <!-- misc common stuff? -->
-  <xacro:include filename="$(find youbot_description)/urdf/common.xacro" />
+  <xacro:include filename="../urdf/common.xacro" />
   
   <!-- youbot base -->
-  <xacro:include filename="$(find youbot_description)/urdf/youbot_base/base.urdf.xacro" />
+  <xacro:include filename="../urdf/youbot_base/base.urdf.xacro" />
  
   <!-- controller manager -->
-  <xacro:include filename="$(find youbot_description)/controller/ros_controller.urdf.xacro" />
+  <xacro:include filename="../controller/ros_controller.urdf.xacro" />
   
   <!-- materials for visualization -->
-  <xacro:include filename="$(find youbot_description)/urdf/materials.urdf.xacro" />
+  <xacro:include filename="../urdf/materials.urdf.xacro" />
 						     
   <!-- sensors -->
-  <xacro:include filename="$(find youbot_description)/urdf/sensors/hokuyo_urg04_laser.urdf.xacro"/>
+  <xacro:include filename="../urdf/sensors/hokuyo_urg04_laser.urdf.xacro"/>
 
   <!-- Now we can start using the macros xacro:included above to define the actual youbot -->
 
