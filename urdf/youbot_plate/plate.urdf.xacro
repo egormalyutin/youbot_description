@@ -27,7 +27,7 @@
 				<geometry>
 					<mesh filename="package://youbot_description/meshes/youbot_plate/plate.dae" />
 				</geometry>
-				<material name="DarkGrey"/>
+				<material name="youbot/DarkGrey"/>
 			</visual>
 			
 			<collision>
